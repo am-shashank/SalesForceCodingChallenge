@@ -7,7 +7,8 @@ As part of the challenge, I had to build a project which takes into account user
 # Approach 
 
 ## Design Structure
-	The solution is divided into 4 classes as below
+
+The solution is divided into 4 classes as below
 - CoffeeShopFutureForce.java: This class implements the main function
 - Coordinates.java: This class defines x,y co-ordinates of location
 - CoffeeShopDistance.java: This class stores coffee name and its distance from user
