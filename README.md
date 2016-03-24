@@ -3,6 +3,8 @@
 
 # Introduction
 As part of the challenge, I had to build a java application which takes into account user location and returns the list of three closest coffee shops.
+The coffee shop list is a comma­separated file with rows of the following form:
+      Name,YCoordinate,XCoordinate
 
 # Approach 
 
