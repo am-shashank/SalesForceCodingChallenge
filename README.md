@@ -22,8 +22,8 @@ ArrayList: After the entire file is read, all the CoffeeShopDistance objects are
 
 # Time Complexity & Analysis 
 
-Time to Parse the CSV file, read all the lines and compute Euclidean distances from user : O(n) where n is number of coffee shops (i.e. no of lines in the CSV file)
-Time for single insertion into Max heap: O(logN) where N is the number of entries in the heap
+- Time to Parse the CSV file, read all the lines and compute Euclidean distances from user : O(n) where n is number of coffee shops (i.e. no of lines in the CSV file)
+- Time for single insertion into Max heap: O(logN) where N is the number of entries in the heap
 
 # Run Environment  
 Built in Java SE 1.8
