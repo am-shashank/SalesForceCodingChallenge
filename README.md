@@ -2,7 +2,7 @@
 
 
 # Introduction
-As part of the challenge, I had to build a project which takes into account user location and returns the list of three closest coffee shops.
+As part of the challenge, I had to build a java application which takes into account user location and returns the list of three closest coffee shops.
 
 # Approach 
 
