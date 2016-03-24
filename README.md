@@ -8,16 +8,16 @@ As part of the challenge, I had to build a project which takes into account user
 
 ## Design Structure
 
-The solution is divided into 4 classes as below
-- CoffeeShopFutureForce.java: This class implements the main function
+The solution is divided into 3 classes as below
+- CoffeeShopFutureForce.java: This class implements the main function and finds the top3 closest shops using helper classes
 - Coordinates.java: This class defines x,y co-ordinates of location
 - CoffeeShopDistance.java: This class stores coffee name and its distance from user
 
 ## Data Structures Used
 
-Max-Heap using Java Priority-Queue: The basic idea used is to read the input CSV file line-by-line and store the required data at every	instance. For storing the closest three coffee shops seen till now, a max-heap of  size three is maintained. Whenever a new coffee shop data is read, I compare the distance of current coffee shop with the root element of max-heap using my comparator class. If the distance of current coffee shop is less, the root element is pulled-out and current coffee shop is offered. 
+Max-Heap using Java Priority-Queue: The basic idea used is to read the input CSV file line-by-line and store the required data into a CoffeeShopDistance obejct at every	instance. For storing the closest three coffee shops seen till now, a max-heap of  size three is maintained. Whenever a new coffee shop data is read, I compare the distance of current coffee shop with the root element of max-heap using the comparator defined for PriorityQueue. If the distance of current coffee shop is less, the root element/ max element is pulled-out and current coffee shop is inserted. 
 
-ArrayList: After the entire file is read, all the CoffeeShopDistance objects are added to ArrayList and printed in the increasing order of distance.
+ArrayList: After the entire file is read, all the CoffeeShopDistance objects are dequed/ extracted from the PriorityQueue and added to ArrayList. Finally, they are printed in the increasing order of distance (reverse order of the list).
 
 # Time Complexity & Analysis 
 
